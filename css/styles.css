@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
 
 * {
   padding: 0;
@@ -51,254 +56,151 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-/* Sample CSS for the WHY word */
-
-.whyWLetter {
+.whyWLetter,
+.wantedTLetter,
+.frontendFLetter,
+.theyYLetter,
+.question-mark,
+.takeELetter,
+.improveRLetter,
+.gardeningELetter,
+.developerRLetter,
+.theirILetter {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
-.whyHLetter {
-  font-size: 30px;
+.whyHLetter,
+.rootOLetter,
+.frontendDLetter,
+.gardeningRLetter,
+.wantedALetter,
+.developerLLetter,
+.gardeningILetter,
+.becauseBLetter,
+.developerPLetter,
+.theirTLetter {
+  font-size: 45px;
   font-weight: bold;
-  color: darkgoldenrod;
+  color: rgb(255, 153, 0);
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  background-color: hsl(210, 87%, 50%);
+  font-family: "Ceviche One", sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter,
+.developerETwoLetter,
+.theyHLetter,
+.toOLetter,
+.skillsSLetter,
+.wantedELetter,
+.frontendNLetter,
+.improveMLetter,
+.rootTLetter,
+.improveELetter,
+.gardeningALetter {
   font-size: 60px;
-  font-weight: normal;
+  font-weight: bold;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* DID word */
-
-.didDLetter {
-}
-
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
+.didDLetter,
+.frontendOLetter,
+.gardeningNLetter,
+.improvePLetter,
+.skillsLLetter,
+.developerEThreeLetter,
+.wantedWLetter,
+.upULetter,
+.developerELetter,
 .improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
+  font-size: 28px;
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  text-decoration: dashed underline overline line-through red;
+  text-transform: lowercase;
+  font-family: "Abril Fatface", serif;
 }
 
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
+.didILetter,
+.developerDLetter,
+.gardeningGTwoLetter,
+.theyELetter,
+.theirHLetter,
+.exclamation-mark,
+.skillsSTwoLetter,
+.rootOTwoLetter,
+.theirRLetter,
+.improveILetter,
+.takeTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: hsl(299, 100%, 52%);
+  font-family: "Ribeye Marrow", serif;
 }
 
-/* SYMBOLS */
+.didDTwoLetter,
+.theELetter,
+.frontendTLetter,
+.developerVLetter,
+.takeKLetter,
+.gardeningGLetter,
+.upPLetter,
+.becauseCLetter,
+.wantedDLetter,
+.theyTLetter {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: black;
+  font-size: 48px;
+  font-family: "Honk", serif;
+}
 
-.hyphen {
+.theTLetter,
+.takeALetter,
+.improveOLetter,
+.skillsILetter,
+.frontendNTwoLetter,
+.becauseALetter,
+.gardeningNTwoLetter,
+.rootRLetter,
+.wantedNLetter,
+.becauseETwoLetter,
+.becauseELetter {
+  font-size: 36px;
+  background-color: pink;
+  font-weight: normal;
+  color: hsl(117, 100%, 89%);
+  text-decoration: dashed underline lawngreen;
+  font-family: "Creepster", serif;
 }
-.exclamation-mark {
-}
-.question-mark {
+
+.theHLetter,
+.frontendRLetter,
+.gardeningDLetter,
+.skillsLTwoLetter,
+.theirELetter,
+.developerOLetter,
+.toTLetter,
+.becauseULetter,
+.skillsKLetter,
+.hyphen,
+.becauseSLetter,
+.frontendELetter {
+  font-size: 72px;
+  font-weight: 400;
+  background-color: red;
+  text-decoration: none;
+  font-family: "Caesar Dressing", serif;
 }
